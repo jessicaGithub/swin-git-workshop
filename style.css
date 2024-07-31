@@ -6,12 +6,16 @@ body {
     width: 100%;
     height: auto;
     min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 .box {
-    display: inline-block;
-    min-width: 2rem;
-    min-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     background: #ddd;
     text-align: center;
     vertical-align: middle;
